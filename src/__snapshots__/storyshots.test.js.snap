@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Article List list item 1`] = `
+<div>
+  <p>
+    article title
+  </p>
+  <p>
+    description
+  </p>
+</div>
+`;

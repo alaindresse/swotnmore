@@ -1,0 +1,15 @@
+[ignore]
+.*/__tests__/.*
+
+[include]
+
+[libs]
+interfaces
+
+[options]
+unsafe.enable_getters_and_setters=true
+module.system=haste
+esproposal.class_static_fields=enable
+suppress_type=$FlowIssue
+suppress_comment=\\(.\\|\n\\)*\\$FlowFixMe\\($\\|[^(]\\|(\\(>=0\\.\\(2[0-8]\\|1[0-9]\\|[0-9]\\).[0-9]\\)? *\\).*\n
+suppress_comment=\\(.\\|\n\\)*\\$FlowIgnore
